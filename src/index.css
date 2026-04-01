@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Lexend:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+  
+  --color-saffron: #EF6C00;
+  --color-blue-monk: #2465ce;
+  --color-surface: #f9f9f9;
+  --color-surface-low: #f3f3f3;
+  --color-surface-lowest: #ffffff;
+}
+
+body {
+  @apply font-lexend bg-surface text-gray-900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-manrope;
+}
